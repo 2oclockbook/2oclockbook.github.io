@@ -1,0 +1,83 @@
+
+/* Copyright Peacock Carter 2006 - 2008 [Newcastle Plumbers] */
+address, caption, cite, code, dfn, th{font-style:normal; font-weight:normal}
+abbr, acronym{border:0}
+body, html{margin: 0; padding: 0;}
+blockquote, body, div, dl, dt, dd, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, ul, p, pre, textarea, td, th{margin:0; padding:0}
+caption, th{text-align:left}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote{background:transparent; font-weight:normal; word-spacing:0px}
+fieldset, img{border:0}
+table{border-collapse:collapse; border-spacing:0; clear:both; margin:10px;}
+/* Generic */
+a, a:active, a:link,a:visited{background:transparent; color: #463F73; text-decoration:underline}
+a:hover{border-bottom: 1px transparent solid !important;color:#463F73; text-decoration: none !important}
+abbr, acronym, dfn{border-bottom-width:1px; border-bottom-style:dotted; cursor:help}
+address{color:#000; font-size:0.7em; line-height:1.8em}
+blockquote {}
+body{background: #EDEFE3;color:#000; font-family: arial, verdana, helvetica,sans-serif; font-size: 62.5%;}
+caption{font-size:0.8em; font-weight:bold}
+em{font-style:italic}
+.float_left{float:left !important}
+.float_none{float:none !important}
+.float_right{float:right !important}
+.clear{clear: both !important}
+.hide {display: none !important}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 acronym, h1 abbr{border-bottom-width:0px !important; text-decoration: none !important}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{text-decoration: underline !important}
+h1{color:#463F73; font-size:165%; font-weight:normal; letter-spacing:0; line-height:110%;margin: 0;padding: 0}
+h2{color:#463F73; font-size:105%; font-weight:bold; letter-spacing:0; line-height:100%}
+h3{color:#463F73; font-size:110%; font-weight:bold; letter-spacing:1px;line-height:100%;margin-top: 5px}
+h4, h5, h6{color:#93895D; font-size:1.1em; font-weight:bold; letter-spacing:1px;line-height:1.5em;margin-top: 5px}
+h2 a, h3 a {color: #93895D !important; font-weight: inherit !important;}
+p, address {text-align:justify}
+ul{list-style-type:square}
+strong{font-weight:bold}
+table{background:transparent; width: 700px;}
+td{background:#FFF; color:#000; border-bottom: 1px #DDD solid; padding: 5px;}
+th{background:#0178C8; border-bottom: 1px #FFF solid;border-right: 1px #FFF solid;color:#FFF; font-weight: bold; padding: 5px;}
+caption{display: none}
+/* Specific */
+#wrapper {
+margin: 25px auto 0 auto;
+width: 700px;
+}
+    #header, #footer {
+    height: 33px;
+    }
+#header {background: transparent url("images/wrapper_top.gif") no-repeat top left}
+#main {background: #FFF;font-size: 135%;padding: 10px}
+    #main p, #main ul {margin: 5px 0}
+    #main ul {margin-left: 20px}
+    img#logo {float: right}
+.col {
+float: left;
+padding: 10px;
+}
+    .small {width: 175px}
+    .large {width: 450px}
+
+p.intro {
+background: #463F73;
+clear: both;
+color: #FFF;
+font-weight: bold;
+padding: 10px 5px;
+position: relative;
+text-align: right;
+}
+#footer {background: transparent url("images/wrapper_bottom.gif") no-repeat bottom left;clear: both;text-align: center}
+#out {color: #463F73;padding: 10px 0}
+    #out p {text-align: center}
+    #out a {color: #463F73}
+
+a.buy {
+background: #463F73;
+border-width: 0 !important;
+color: #FFF;
+font-size: 80%;
+padding: 5px;
+text-decoration: none;
+}
+    a:hover.buy {
+    text-decoration: underline !important;
+    }
